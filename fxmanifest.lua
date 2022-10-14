@@ -1,7 +1,7 @@
 fx_version 'bodacious'
 game 'gta5'
 author 'dullpear (Forked by Collaze)'
-version '1.0.3'
+version '1.0.4'
 description 'dpClothing++'
 
 client_scripts {
