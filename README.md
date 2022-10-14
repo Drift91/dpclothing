@@ -1,3 +1,7 @@
+[![GitHub latest release](https://img.shields.io/github/downloads/Collaze/dpclothing/latest/total?label=latest-release&logo=GitHub)](https://github.com/Collaze/dpclothing/releases/latest)
+[![GitHub all releases](https://img.shields.io/github/downloads/Collaze/dpclothing/total?label=all-releases&logo=GitHub)](https://github.com/Collaze/dpclothing/releases)
+
+
 # DpClothing 👕👖👗🧤
 
 FiveM Clothing Variations and Toggles (Gloves, Vest, Top, Hair, Bag and more)
