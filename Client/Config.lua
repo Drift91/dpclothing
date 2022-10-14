@@ -215,4 +215,12 @@ Config.ExtraCommands = {
 		OffsetX = -0.12,
 		OffsetY = 0.2,
 	},
+	[Lang("UNDERSHIRT")] = {
+		Func = function() ToggleClothing("Undershirt", true) end,
+		Sprite = "undershirt",
+		Desc = string.format(Lang("TakeOffOn"), string.lower(Lang("Undershirt"))),
+		Name = Lang("Undershirt"),
+		OffsetX = -0.02,
+		OffsetY = 0.07,
+	},
 }
