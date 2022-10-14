@@ -360,4 +360,3 @@ AddEventHandler('onResourceStop', function(resource) -- Mostly for development, 
 		ResetClothing()
 	end
 end)
-.
