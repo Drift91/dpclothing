@@ -31,4 +31,4 @@ This is a free GitHub fork of [Dullpear's clothing menu](https://github.com/andr
 
 * Turkish 🇹🇷
 
-Most translations have been done through Google Translate or DeepL. If you notice any issues with translations, feel free create an issue on this page
+Most translations have been done through Google Translate or DeepL. If you notice any issues with translations, feel free create an issue on this page.
