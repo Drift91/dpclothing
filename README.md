@@ -19,7 +19,7 @@ This is a free GitHub fork of [Dullpear's clothing menu](https://github.com/andr
 
 * German 🇩🇪
 
-* English ᴇɴ
+* English 🇬🇧
 
 * Spanish 🇪🇸
 
