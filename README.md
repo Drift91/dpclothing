@@ -22,7 +22,6 @@ FiveM Clothing Variations and Toggles (Gloves, Vest, Top, Hair, Bag and more)
 * Turkish 🇹🇷
 
 Most translations have been done through Google Translate or DeepL.
-
 -----------------------------------
 
 # Know issues ⚠️
