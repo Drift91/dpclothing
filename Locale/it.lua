@@ -25,6 +25,7 @@ Locale.it = {
 	TakeOffOn = "Togli/Metti %s.",
 	Top = "Torso",
 	Top2 = "Modifica variante torso.",
+	Undershirt = "Cintura/Maglietta",
 	Vest = "Giubbotto",
 	Visor = "Cappello",
 	Visor2 = "Modifica varianti cappello.",
@@ -51,4 +52,5 @@ Locale.it = {
 	SHIRT = "maglia",
 	RESET = "ripristina",
 	BAGOFF = "togliborsone",
+	UNDERSHIRT = "canottiera",
 }

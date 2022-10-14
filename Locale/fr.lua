@@ -25,6 +25,7 @@ Locale.fr = {
 	TakeOffOn = "Enlevez vos %s off/on.",
 	Top = "Veste",
 	Top2 = "Variation de la chemise à bascule.",
+	Undershirt = "Ceinture/Chemise",
 	Vest = "Gilet",
 	Visor = "Visière",
 	Visor2 = "Variation du chapeau à bascule.",
@@ -52,6 +53,7 @@ Locale.fr = {
 	SHIRT = "chemise",
 	RESET = "réinitialiser",
 	BAGOFF = "sacoff",
+	UNDERSHIRT = "maillot de corps",
 }
 
 -- Generated with DeepL

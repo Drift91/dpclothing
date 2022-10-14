@@ -25,6 +25,7 @@ Locale.de = { --Translated by @Naifen-Phoxidas
 	TakeOffOn = "Ziehe %s aus/an.",
 	Top = "Oberteil",
 	Top2 = "Hemd Variante verändern.",
+	Undershirt = "Gürtel/Unterhemd",
 	Vest = "Weste",
 	Visor = "Visier",
 	Visor2 = "Hut Variante verändern.",
@@ -52,4 +53,5 @@ Locale.de = { --Translated by @Naifen-Phoxidas
 	SHIRT = "hemd",
 	RESET = "kleidungzurücksetzen",
 	BAGOFF = "rucksackab",
+	UNDERSHIRT = "unterhemd",
 }

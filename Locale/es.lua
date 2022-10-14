@@ -25,6 +25,7 @@ Locale.es = {
 	TakeOffOn = "Toma tus %s off/on.",
 	Top = "Chaqueta",
 	Top2 = "Variación de la camisa de cambio.",
+	Undershirt = "Cinturón/Subcamisa",
 	Vest = "Chaleco",
 	Visor = "Visor",
 	Visor2 = "Variación del sombrero.",
@@ -52,6 +53,7 @@ Locale.es = {
 	SHIRT = "camisa",
 	RESET = "revertir",
 	BAGOFF = "bagoff",
+	UNDERSHIRT = "camiseta",
 }
 
 -- Generated with DeepL

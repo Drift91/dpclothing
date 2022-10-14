@@ -25,6 +25,7 @@ Locale.fi = {
 	TakeOffOn = "Laita %s pois/päälle.",
 	Top = "Takki",
 	Top2 = "Takki vaihtoehdot",
+	Undershirt = "Vyö/Aluspaita",
 	Vest = "Liivi",
 	Visor = "Visiiri",
 	Visor2 = "Hattu vaihtoehdot.",
@@ -52,4 +53,5 @@ Locale.fi = {
 	SHIRT = "paita",
 	RESET = "palautavaatteet",
 	BAGOFF = "laukkupois",
+	UNDERSHIRT = "aluspaita",
 }

@@ -25,6 +25,7 @@ Locale.en = {
 	TakeOffOn = "Take your %s off/on.",
 	Top = "Top",
 	Top2 = "Toggle shirt variation.",
+	Undershirt = "Belt/Undershirt",
 	Vest = "Vest",
 	Visor = "Visor",
 	Visor2 = "Toggle hat variation.",
@@ -52,4 +53,5 @@ Locale.en = {
 	SHIRT = "shirt",
 	RESET = "revertclothing",
 	BAGOFF = "bagoff",
+	UNDERSHIRT = "undershirt",
 }

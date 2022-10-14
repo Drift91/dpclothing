@@ -25,6 +25,7 @@ Locale.tr = {
 	TakeOffOn = "%s giy/çıkart", --Take your %s off/on.
 	Top = "Üst", --Top
 	Top2 = "Gömlek varyasyonunu aç / kapat.",
+	Undershirt = "Kemer / Atlet",
 	Vest = "Yelek", --Vest
 	Visor = "Visor", --Visor
 	Visor2 = "Şapka varyasyonunu aç / kapat.",
@@ -46,10 +47,11 @@ Locale.tr = {
 	SHOES = "ayakkabı", --default : shoes
 	TOP = "üst", --top
 	VEST = "yelek", --vest
-	VISOR = "visor", --visor 
+	VISOR = "visor", --visor
 	WATCH = "saat", --watch
 	PANTS = "pantolon", --pants
 	SHIRT = "shirt", --shirt this some because turkish translate = Tişört "ş,ö" maybe it can cause problems in commands.
 	RESET = "normaledondur", --revertclothing
 	BAGOFF = "cantacikart", --default : bagoff
+	UNDERSHIRT = "atlet",
 }
