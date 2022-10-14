@@ -1,2 +1,24 @@
-https://forum.cfx.re/t/dpclothing-1-0-0-clothing-variations-and-toggles-gloves-vest-top-hair-bag-and-more/1326317
-Read the cfx.re post for more information!
+# DpClothing 👕👖👗
+
+FiveM Clothing Variations and Toggles (Gloves, Vest, Top, Hair, Bag and more)
+
+![image](https://user-images.githubusercontent.com/77038583/195846924-3ef25213-b275-4cba-868b-b93b3c242d8a.png)
+-----------------------------------
+
+# Available in:
+
+* German 🇩🇪
+
+* English 🇬🇧
+
+* Spanish 🇪🇸
+
+* Finnish 🇫🇮
+
+* French 🇫🇷
+
+* Italian 🇮🇹
+
+* Turkish 🇹🇷
+
+Most translations have been done through Google Translate or DeepL.
