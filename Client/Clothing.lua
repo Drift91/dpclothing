@@ -3,7 +3,7 @@
 	These are the tables for all the info we will need when dealing with the functions.
 
 	["Handle"] = {      			First we name it, this is the string that will be put in the command to be used with ToggleClothing, or ToggleProps.
-		Drawable = 11,  			Then we assign its drawable/prop id. 
+		Drawable = 11,  			Then we assign its drawable/prop id.
 		Table = Variations.Jackets,	Then we assign its table found in Variations, if it has one, alternatively we can do.
 									Table = {
 										Standalone = true,
@@ -74,7 +74,7 @@ local Extras = {
 		Drawable = 11,
 		Table = {
 			Standalone = true, Male = 252, Female = 74,
-			Extra = { 
+			Extra = {
 						{Drawable = 8, Id = 15, Tex = 0, Name = "Extra Undershirt"},
 			 			{Drawable = 3, Id = 15, Tex = 0, Name = "Extra Gloves"},
 			 			{Drawable = 10, Id = 0, Tex = 0, Name = "Extra Decals"},
@@ -90,6 +90,11 @@ local Extras = {
 	["Bagoff"] = {
 		Drawable = 5,
 		Table = {Standalone = true, Male = 0, Female = 0},
+		Emote = {Dict = "clothingtie", Anim = "try_tie_negative_a", Move = 51, Dur = 1200}
+	},
+	["Undershirt"] = {
+		Drawable = 8,
+		Table = {Standalone = true, Male = 15, Female = 0},
 		Emote = {Dict = "clothingtie", Anim = "try_tie_negative_a", Move = 51, Dur = 1200}
 	},
 }
@@ -172,7 +177,7 @@ function ToggleClothing(which, extra)
 	local Toggle = Drawables[which] if extra then Toggle = Extras[which] end
 	local Ped = PlayerPedId()
 	local Cur = { -- Lets check what we are currently wearing.
-		Drawable = GetPedDrawableVariation(Ped, Toggle.Drawable), 
+		Drawable = GetPedDrawableVariation(Ped, Toggle.Drawable),
 		Id = Toggle.Drawable,
 		Ped = Ped,
 		Texture = GetPedTextureVariation(Ped, Toggle.Drawable),
@@ -202,7 +207,7 @@ function ToggleClothing(which, extra)
 		Notify(Lang("NoVariants")) return
 	else
 		if not LastEquipped[which] then
-			if Cur.Drawable ~= Table then 
+			if Cur.Drawable ~= Table then
 				PlayToggleEmote(Toggle.Emote, function()
 					LastEquipped[which] = Cur
 					SetPedComponentVariation(Ped, Toggle.Drawable, Table, 0, 0)
@@ -247,7 +252,7 @@ function ToggleProps(which)
 	local Cur = { -- Lets get out currently equipped prop.
 		Id = Prop.Prop,
 		Ped = Ped,
-		Prop = GetPedPropIndex(Ped, Prop.Prop), 
+		Prop = GetPedPropIndex(Ped, Prop.Prop),
 		Texture = GetPedPropTextureIndex(Ped, Prop.Prop),
 	}
 	if not Prop.Variants then
