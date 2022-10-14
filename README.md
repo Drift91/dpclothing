@@ -1,4 +1,4 @@
-# DpClothing 👕👖👗
+# DpClothing 👕👖👗🧤
 
 FiveM Clothing Variations and Toggles (Gloves, Vest, Top, Hair, Bag and more)
 
@@ -23,6 +23,8 @@ FiveM Clothing Variations and Toggles (Gloves, Vest, Top, Hair, Bag and more)
 
 Most translations have been done through Google Translate or DeepL.
 
-# Know issues:
+-----------------------------------
+
+# Know issues ⚠️
 
 * Belt/Undershirts doesn't highlight blue when toggled.
