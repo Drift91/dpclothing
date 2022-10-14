@@ -94,7 +94,7 @@ local Extras = {
 	},
 	["Undershirt"] = {
 		Drawable = 8,
-		Table = {Standalone = true, Male = 15, Female = 0},
+		Standalone = true, Male = 15, Female = 15,
 		Emote = {Dict = "clothingtie", Anim = "try_tie_negative_a", Move = 51, Dur = 1200}
 	},
 }
