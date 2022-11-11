@@ -7,13 +7,13 @@ Config = {
 		AllowInCars = false,			-- Allow the GUI in cars?
 		AllowWhenRagdolled = false,			-- Allow the GUI when ragdolled?
 		Enabled = true, 				-- You can turn the gui off here, the base commands will still work.
-		Key = GetKey("Y"), 				-- Change the GUI key here.
-		Sound = true,					-- You can disable sound in the GUI here.
+		DefaultKey = 'Y', 				-- Change the GUI key here.
+		Sound = true,					-- You can disable sound in the GUI here. https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
 		TextColor = {255,255,255},
 		TextOutline = true,
 		TextFont = 0,					-- Change font, useful for other languages.
 		TextSize = 0.21,				-- Change the text size below buttons here, useful for other languages.
-		Toggle = false,					-- Change the keybind from toggling the window open, or just holding it to open it.
+		Toggle = true,					-- Change the keybind from toggling the window open, or just holding it to open it.
 	}
 }
 

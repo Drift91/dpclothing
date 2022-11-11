@@ -277,24 +277,26 @@ Citizen.CreateThread(function()
 	for k,v in pairs(TextureDicts) do while not HasStreamedTextureDictLoaded(v) do Wait(100) RequestStreamedTextureDict(v, true) end end
 	GenerateTheButtons()
 	while true do Wait(0)
-		if not Config.GUI.Toggle then
-			if IsControlPressed(1, Config.GUI.Key) then
-				local Ped = PlayerPedId()
-				if Check(Ped) then MenuOpened = true end
-			else MenuOpened = false end
-			if IsControlJustPressed(1, Config.GUI.Key) then
-				local Ped = PlayerPedId()
-				if Check(Ped) then SoundPlay("Open") SetCursorLocation(Config.GUI.Position.x, Config.GUI.Position.y) end
-			elseif IsControlJustReleased(1, Config.GUI.Key) then
-				if Check(Ped) then MenuOpened = false SoundPlay("Close") end
-			end
-		else
-			if IsControlJustPressed(1, Config.GUI.Key) then
-				local Ped = PlayerPedId()
-				if Check(Ped) then SoundPlay("Open") SetCursorLocation(Config.GUI.Position.x, Config.GUI.Position.y) MenuOpened = not MenuOpened end
-			end
-		end
 		if MenuOpened then DrawGUI() end
 		if Config.Debug then DrawDev() end
 	end
 end)
+
+RegisterCommand('+dpclothing', function()
+	if not Config.GUI.Toggle then
+		local Ped = PlayerPedId()
+		if Check(Ped) then MenuOpened = true end
+		if Check(Ped) then SoundPlay("Open") SetCursorLocation(Config.GUI.Position.x, Config.GUI.Position.y) end
+	else
+		local Ped = PlayerPedId()
+		if Check(Ped) then SoundPlay("Open") SetCursorLocation(Config.GUI.Position.x, Config.GUI.Position.y) MenuOpened = not MenuOpened end
+	end
+end)
+RegisterCommand('-dpclothing', function()
+	if not Config.GUI.Toggle then
+		if Check(Ped) then MenuOpened = false SoundPlay("Close") end
+
+	end
+end)
+
+RegisterKeyMapping('+dpclothing', 'Open dpClothing Menu', 'keyboard', Config.GUI.DefaultKey)

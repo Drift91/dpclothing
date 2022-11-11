@@ -1,14 +1,15 @@
-fx_version 'bodacious'
+fx_version 'cerulean'
 game 'gta5'
+
 author 'dullpear (Forked by Collaze)'
-version '1.0.4'
 description 'dpClothing++'
+version '1.0.4'
 
 client_scripts {
-	'Client/Functions.lua', 		-- Global Functions / Events / Debug and Locale start.
-	'Locale/*.lua', 				-- Locales.
-	'Client/Config.lua',			-- Configuration.
-	'Client/Variations.lua',		-- Variants, this is where you wanan change stuff around most likely.
-	'Client/Clothing.lua',
-	'Client/GUI.lua',				-- The GUI.
+	'client/functions.lua', 		-- Global Functions / Events / Debug and Locale start.
+	'locale/*.lua', 				-- Locales.
+	'config.lua',                   -- Configuration
+	'client/variations.lua',		-- Variants, this is where you wanan change stuff around most likely.
+	'client/clothing.lua',
+	'client/GUI.lua'				-- The GUI.
 }
