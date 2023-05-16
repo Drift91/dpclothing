@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'dullpear (Forked by Collaze)'
 description 'dpClothing++'
-version '1.0.5'
+version '1.0.6'
 
 client_scripts {
 	'client/functions.lua', 		-- Global Functions / Events / Debug and Locale start.
