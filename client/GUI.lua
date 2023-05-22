@@ -283,6 +283,7 @@ Citizen.CreateThread(function()
 end)
 
 RegisterCommand('+dpclothing', function()
+	SetMouseCursorSprite(1)
 	if not Config.GUI.Toggle then
 		local Ped = PlayerPedId()
 		if Check(Ped) then MenuOpened = true end
