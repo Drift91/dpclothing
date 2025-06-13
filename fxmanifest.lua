@@ -13,3 +13,6 @@ client_scripts {
 	'client/clothing.lua',
 	'client/GUI.lua'				-- The GUI.
 }
+
+lua54 'yes'
+use_experimental_fxv2_oal 'yes'
